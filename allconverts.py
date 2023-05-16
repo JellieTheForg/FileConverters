@@ -97,12 +97,12 @@ def csv_to_image(csvimgdata):
     heatmap.set_xticklabels([])
 
     #save the plot with high quality
-    heatmap.figure.savefig('heatmap_high_quality2.png', bbox_inches='tight', dpi=300)
+    heatmap.figure.savefig('csvoutput.png', bbox_inches='tight', dpi=300)
 
 def mp3_to_photo(file_path_aud):
     with open(file_path_aud, "rb") as file:
         hex_string_in = file.read()
-
+        
     # Convert binary data to base 2 (binary) string
     binary_aud_in = ''.join(format(byte, '08b') for byte in hex_string_in)
 
