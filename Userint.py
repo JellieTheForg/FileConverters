@@ -26,7 +26,7 @@ if choice == "CSV To Image":
 
 if choice == "MP3 To Image":
     from allconverts import mp3_to_photo
-    file_path_aud = input("What is the name of your audio file? Make sure to include file ext and make sure it is in the same folder: ")
+    file_path_aud = input("What is the name of your audio file?(This can also be any type of file) Make sure to include file ext and make sure it is in the same folder: ")
     mp3_to_photo(file_path_aud)
 
 if choice == "Image To MP3":

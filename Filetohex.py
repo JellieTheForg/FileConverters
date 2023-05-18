@@ -35,8 +35,8 @@ def visualize_hex_data(hex_data):
     image.save('hex_visualization.png')
     image.show()
 
-# Example usage:
-mp3_file = 'output.mp3'  # Replace with the path to your MP3 file
+
+mp3_file = 'output.mp3'
 with open(mp3_file, 'rb') as file:
     binary_data = file.read()
 hex_data = binary_data.hex()
